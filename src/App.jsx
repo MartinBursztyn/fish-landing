@@ -81,10 +81,18 @@ const WhatWeGenerate = () => (
 const GiantButton = () => (
   <Section className="giant-cta">
     <Container>
-      <div className="giant-btn">PRUEBANOS</div>
+      <a 
+        href="https://frontend-fisa.vercel.app" 
+        target="_blank" 
+        rel="noreferrer" 
+        className="giant-btn"
+      >
+        PRUEBANOS
+      </a>
     </Container>
   </Section>
 );
+
 
 /* Footer sin links */
 const Footer = () => (
